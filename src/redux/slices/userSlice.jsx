@@ -5,7 +5,6 @@ import axios from 'axios';
 import { BASE_URL } from '../../utils/common';
 import { getToken } from "../../utils/Storage";
 
-
 const initialState = {
   token: null,
   name: "",
