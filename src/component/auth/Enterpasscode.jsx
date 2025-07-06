@@ -15,10 +15,8 @@ const Enterpasscode = ({ open, setOen, data }) => {
     const close = () => {
         setOen(false)
     }
-    console.log("dfsefsf", data?._id);
     const submit = async () => {
         const data = await dispatch(loginStudent({ id: data?._id, password: password }))
-        console.log("data", data?.payload?.token)
         await saveToken(data?.payload?.token)
         router.push("(drawer)")
     }

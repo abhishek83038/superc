@@ -64,7 +64,7 @@ export default function Selectcountry() {
           uri: bgImage,
         }}
         style={styles.background}
-        resizeMode="cover"
+        contentFit="cover"
       >
         <LinearGradient colors={["rgba(0,0,0,0.7)", "rgba(0,0,0,0.7)"]} style={styles.overlay}>
           <ScrollView contentContainerStyle={styles.scroll}>

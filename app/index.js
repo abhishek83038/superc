@@ -20,9 +20,9 @@ export default function Index() {
           uri: "https://i.pinimg.com/736x/4b/c8/a1/4bc8a1873b16f428b6c209a09bdd9165.jpg",
         }}
         style={styles.background}
-        resizeMode="cover"
+        contentFit="cover"
       >
-        <LinearGradient colors={["rgba(0,0,0,0.7)", "rgba(0,0,0,0.7)"]} style={styles.overlay}>
+        <LinearGradient colors={["rgba(0, 0, 0, 0.2)", "rgba(0,0,0,0.7)"]} style={styles.overlay}>
           <Text style={{color:"#d5d3d3",textAlign:"center",marginVertical:20}}>SuperC provides you Unlimited Practice, Competitive Battles, Olympiad,
             Automated Homework & Assignments to growth your child brain.</Text>
           <Link style={styles.loginbtn} href="/login"><Text>LOGIN / REGISTER</Text></Link>
